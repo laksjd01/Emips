@@ -72,3 +72,8 @@ nav a {
         grid-template-columns: repeat(3, 1fr); /* 3 columns on medium screens */
     }
 }
+@media (min-width: 1024px) {
+    .gallery {
+        grid-template-columns: repeat(4, 1fr); /* 4 columns on large screens */
+    }
+}
